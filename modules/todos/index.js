@@ -37,8 +37,6 @@ const typeDefs = gql`
   }
 `;
 
-const createTodo = require('./mutations/create-todo');
-
 // Provide resolver functions for your schema fields
 const resolvers = {
   // Resolvers for Queries
